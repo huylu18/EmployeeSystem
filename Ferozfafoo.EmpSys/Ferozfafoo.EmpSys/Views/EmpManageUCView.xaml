@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Ferozfafoo.EmpSys.Views.EmpManageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ferozfafoo.EmpSys.Views"
+             xmlns:toolbars="clr-namespace:Ferozfafoo.EmpSys.Views.Toolbars">
+    <Grid Background="Gray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.8*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <toolbars:MainToolbarUCView/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <TextBlock Text="This is Emp Manage View"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"></TextBlock>
+        </Grid>
+    </Grid>
+</UserControl>
